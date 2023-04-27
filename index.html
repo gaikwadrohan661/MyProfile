@@ -4,24 +4,47 @@
     <title>Index Page</title>
      <!-- CDN Link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+<style>
+   #name,#mob,#email {
+         background-color:aqua;
+         text-decoration-color: brown;
+    }
+    header{
+          background-color: gray;  
+          padding: 15px;
+          font-size: x-large;
+          font-family: 'Sriracha', cursive;
+    }
+    .userInfo{
+            margin-right: 70px;
+           
+        }
+    
+</style>
+    </head>
 <body>
      <i class="fa fa-user-circle" aria-hidden="true"></i>
-    <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+    <span id="userInfo">Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
+    <span id="userInfo"> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
     <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    <span> gajanan.kharat@gmail.com </span> 
+    <span id="userInfo"> gajanan.kharat@gmail.com </span> 
     <nav>
         <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
         <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
+        <a href="ecucation.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
         <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-        <a href="contactUs.html" target="frame"> CONTACT ME </a>
+        <a href="contact.html" target="frame"> CONTACT ME </a> &nbsp; &nbsp; &nbsp;
+        <a href="professional.html" target="frame"> PROFESSIONAL </a>&nbsp; &nbsp; &nbsp;
+        <a href="inlineCss.html" target="frame"> inlineCSS </a> 
     </nav>
 
     <br> <br> 
-    <iframe width="1050px" height="600px" name="frame">
+    <iframe width="700px" height="500px" name="frame" src="home.html">
 
     </iframe>
 

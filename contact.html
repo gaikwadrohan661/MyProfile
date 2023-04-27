@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <h3>Contact Us </h3>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+           <style>
+           *{
+            font-family: 'Roboto Slab', serif;
+        }
+        label{
+            color: cadetblue;
+            font-size: x-large;
+        }
+        input{
+            width: 400px;
+            height: 25px;
+            border-radius: 10px;
+            border: 1px solid burlywood;
+        }
+        input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                color: brown;
+            }
+        </style>
+    </head>
+    <form>
+        <table>
+            <tr> 
+                <td><b><label> Full Name :</label></b>  </td>&nbsp
+                <td> <input type="text" id="firstName" placeholder="max char length="  maxlength="40"> </td>
+            </tr>
+            <tr> 
+                <td><b><label>Mobile Number:</label> </b> </td>&nbsp
+                <td> <input type="number" id="number"  maxlength="40"> </td>
+            </tr>
+            <tr> 
+                <td> <label><b>Email:</b> </label> </td>
+                <td> <input type="email" placeholder="Ex msdhoni@gmail.com" required > </td>
+            </tr>
+            <tr> 
+                <td> <lable><b>Enquiry:</b></lable> </td>
+                <td> <textarea rows="7" > </textarea> </td>
+            </tr>
+            <tr>
+                <td> <b><button type="submit " id="submit"> Submit </button></b> </td>
+                <td><b><button type="reset">Clear All</button></b> </td>
+            </tr>
+        </table>
+    </form>
+</html>
