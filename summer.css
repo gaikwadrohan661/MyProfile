@@ -1,0 +1,28 @@
+.container{
+     width: 400px;
+     height: 700px;
+     background-color: rgb(120, 160, 160);
+     color: blueviolet;
+}
+h3{
+    text-align: center;
+}
+.container1{
+    color: darkblue;
+    margin-right: 20px;
+}
+.container2{
+   display: inline-block;
+   border-color: brown;
+   border: 1px ;
+
+}
+.container1{
+    display: inline-block;
+    border: 1px ;
+    padding: 1rem 1rem;
+    vertical-align: top;  
+  }
+  img{
+    width: 400px;
+  }
