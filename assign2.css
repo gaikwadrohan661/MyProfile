@@ -1,0 +1,33 @@
+
+.container{
+    width: 500px;
+    height: 400px;
+    border-color: black;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+img{
+    border-radius: 90px;
+    margin-left: 170px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.container2{
+    width: 500px;
+    height: 80px;
+    border-radius: 50px;
+    color: white;
+   margin-left: 0px;
+   text-align: center;
+   border: solid;
+   margin-top: 59px;
+   background-color: rebeccapurple;
+}
+
+
